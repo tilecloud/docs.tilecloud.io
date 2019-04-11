@@ -53,7 +53,7 @@
 		font-weight: 500;
 		font-family: $font-family-secondary;
 		line-height: calc(5.625rem - 1px);
-		text-transform: uppercase;
+		text-transform: none;
 		border-bottom: 1px solid;
 		border-color: transparent;
 		transition: border-color .2s;
@@ -113,7 +113,7 @@
 		@include link-reset;
 		color: $color-dark-blue;
 		font-family: $font-family-secondary;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 }
 
