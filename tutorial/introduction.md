@@ -70,7 +70,7 @@ TileCloud は 米国 [Mapbox](https://www.mapbox.com/) 社互換のベクトル�
 
 Embed API を利用するには、地図を設置したいページの `</body>` の直前に以下のコードを記述していただくだけでご利用可能です。
 
-```
+```html
 <script type="text/javascript" src="https://api.tilecloud.io/dev/embed?tilecloud-api-key=YOUR-API-KEY"></script>
 ```
 
