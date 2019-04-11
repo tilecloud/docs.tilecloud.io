@@ -1,0 +1,41 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: APIキーを取得
+description: TileCloud の地図をサイトに埋め込むための API キーの取得方法について紹介します。
+
+# Author box
+# author:
+#     title: About Author
+#     title_url: '#'
+#     external_url: true
+#     description: Author description
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    prev:
+        content: はじめに
+        url: '/tutorial/introduction/'
+    next:
+        content: Embed API 用の HTML タグを設置
+        url: '#'
+
+breadcrumbs:
+    - title: "チュートリアル"
+      url: "/tutorial/"
+    - title: "API キーを取得"
+      url: "/tutorial/introduction/"
+---
+
+## API キーの取得
+
+本サービスは現在招待制のプライベートベータテストをしています。
+
+誠に恐れ入りますが、サービスの開始までしばらくお待ち下さい。

@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: はじめに
-description: 本チュートリアルでは、TileCloudの地図をウェブサイトに埋め込むための一般的な方法を目的別に紹介します。
+description: TileCloud の地図をサイトに埋め込むまでの流れについて紹介します。
 
 # Author box
 # author:
@@ -24,8 +24,8 @@ page_nav:
         content: チュートリアル
         url: '/tutorial/'
     next:
-        content: API キーを取得する
-        url: './tutorial/signup'
+        content: API キーを取得
+        url: '/tutorial/get-api/'
 
 breadcrumbs:
     - title: "チュートリアル"
@@ -48,7 +48,7 @@ API キーは、TileCloud の地図と紐付けられており、API キーを�
 
 TileCloud は 米国 [Mapbox](https://www.mapbox.com/) 社互換のベクトルタイルという仕組みを採用しており、同社がオープンソースで公開している [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) をそのままご利用いただくことが可能です。
 
-さらに TileCloud では、Embed API という API をご提供しており、これによって JavaScript を書かなくても HTML を記述するだけで、みなさんのウェブサイトに TileCloud も地図を埋め込むことができます。
+さらに TileCloud では、Embed API という API をご提供しており、これによって JavaScript を書かなくても以下のような HTML を記述するだけで、みなさんのウェブサイトに TileCloud の地図を埋め込むことができます。
 
 ```html
 <div
