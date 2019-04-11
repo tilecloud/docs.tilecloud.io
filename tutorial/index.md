@@ -28,6 +28,6 @@ page_nav:
         url: './introduction/'
 ---
 
-## チュートリアル
+## 目次
 
 * [はじめに](./introduction/)
