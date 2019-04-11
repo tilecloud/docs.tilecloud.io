@@ -13,14 +13,13 @@
 /* ----- Navigation ----- */
 .site-header__logo {
 	@include link-reset;
-	display: block;
-	float: left;
 	color: $color-dark-blue;
 	font-family: $font-family-secondary;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 5.625rem;
 
+	
 	&:hover,
 	&:focus,
 	&:active {
@@ -28,7 +27,9 @@
 	}
 
 	img {
-		height: calc(5.625rem - 1px);
+		max-width: 70%;
+		max-height: 30px;
+		vertical-align: middle;
 	}
 }
 
