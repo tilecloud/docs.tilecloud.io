@@ -42,7 +42,7 @@ API キーは、TileCloud の地図と紐付けられており、API キーを�
 
 TileCloud は 米国 [Mapbox](https://www.mapbox.com/) 社互換のベクトルタイルという仕組みを採用しており、同社がオープンソースで公開している [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) をそのままご利用いただくことが可能です。
 
-さらに TileCloud では、Embed API という API をご提供しており、これによって JavaScript を必要とせずに HTML を記述するだけで柔軟でフレキシブルにカスタマイズが可能な地図を、みなさんのウェブサイトに埋め込むことができます。
+さらに TileCloud では、Embed API という API をご提供しており、これによって JavaScript を書かなくても HTML を記述するだけで、みなさんのウェブサイトに TileCloud も地図を埋め込むことができます。
 
 ```html
 <div
@@ -70,7 +70,7 @@ Embed API を利用するには、地図を設置したいページの `</body>`
 
 `YOUR-API-KEY` の部分は、みなさんの API キーと置き換えてください。
 
-秘密の情報をこっそり教えますが、この `YOUR-API-KEY` という API キーは特殊な API キーで、`http://localhost:3000` や `http://localhost:8000` など、一般的によく使われるローカル環境の URL に対してあらかじめ許可されていますので、ユーザーアカウントを取らなくても TileCloud の地図をお試しいただくことが可能です。
+秘密の情報をこっそり教えますが、この `YOUR-API-KEY` という API キーは特殊な API キーで、`http://localhost:3000` や `http://localhost:8080` など、一般的によく使われるローカル環境の URL に対してあらかじめ許可されていますので、ユーザーアカウントを取らなくても TileCloud の地図をお試しいただくことが可能です。
 
 ## スタイルについて
 
