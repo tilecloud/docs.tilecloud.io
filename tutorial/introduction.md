@@ -20,9 +20,9 @@ micro_nav: true
 
 # Page navigation
 page_nav:
-    # prev:
-    #     content: Previous page
-    #     url: '#'
+    prev:
+        content: チュートリアル
+        url: '/tutorial/'
     next:
         content: API キーを取得する
         url: './tutorial/signup'
@@ -31,7 +31,7 @@ breadcrumbs:
     - title: "チュートリアル"
       url: "/tutorial/"
     - title: "はじめに"
-      url: "./introduction/"
+      url: "/tutorial/introduction/"
 ---
 
 ## API キーについて
