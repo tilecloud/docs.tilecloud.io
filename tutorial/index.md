@@ -26,6 +26,12 @@ page_nav:
     next:
         content: はじめに
         url: './introduction/'
+
+breadcrumbs:
+    - title: "チュートリアル"
+      url: "/tutorial/"
+    # - title: "hello"
+    #   URL: "./"
 ---
 
 ## 目次

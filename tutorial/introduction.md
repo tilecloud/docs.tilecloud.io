@@ -26,6 +26,12 @@ page_nav:
     next:
         content: API キーを取得する
         url: './tutorial/signup'
+
+breadcrumbs:
+    - title: "チュートリアル"
+      url: "/tutorial/"
+    - title: "はじめに"
+      url: "./introduction/"
 ---
 
 ## API キーについて

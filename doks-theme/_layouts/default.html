@@ -11,6 +11,12 @@
 					<div class="col-md-7">
 						<div class="align-container" data-mh>
 							<div class="align-inner">
+								<div class="breadcrumb-list">
+									<a href="/"><i class="icon icon--home"></i> Home</a>
+									{% for item in page.breadcrumbs %}
+									<i class="icon icon--chevron-right"></i> <a href="{{ item.url }}">{{ item.title }}</a>
+									{% endfor %}
+								</div>
 								{% if page.title %}
 									<h1 class="hero-subheader__title">{{ page.title }}</h1>
 								{% endif %}
