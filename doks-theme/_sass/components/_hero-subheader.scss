@@ -31,6 +31,16 @@
 			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
 		}
 	}
+
+	.breadcrumb-list
+	{
+		margin-bottom: 0;
+		
+		a
+		{
+			@include link-reset;
+		}
+	}
 }
 
 .hero-subheader--before-out {
