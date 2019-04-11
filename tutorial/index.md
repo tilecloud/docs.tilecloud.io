@@ -25,7 +25,7 @@ page_nav:
     #     url: '#'
     next:
         content: はじめに
-        url: './introduction/'
+        url: '/tutorial/introduction/'
 
 breadcrumbs:
     - title: "チュートリアル"
@@ -36,4 +36,5 @@ breadcrumbs:
 
 ## 目次
 
-* [はじめに](./introduction/)
+* [はじめに](/tutorial/introduction/)
+* [API キーを取得](/tutorial/get-api/)
