@@ -84,8 +84,9 @@ Embed API では、`data-style` という属性を使ってスタイルを指定
   style="width: 100%; height: 250px;"
   data-lat="35.675888"
   data-lng="139.744858"
-  data-zoom="12"
-  data-style="fiord-color"
+  data-zoom="16"
+  data-pitch="60"
+  data-style="klokantech-3d"
 >国会議事堂</div>
 ```
 
