@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Embed API 用の HTML タグを設置
-description: TileCloud の地図をサイトに埋め込むための API キーの取得方法について紹介します。
+description: TileCloud の Embed API をページに設置する方法を紹介します。
 
 # Author box
 # author:
