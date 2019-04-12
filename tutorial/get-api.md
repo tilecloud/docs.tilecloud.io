@@ -25,7 +25,7 @@ page_nav:
         url: '/tutorial/introduction/'
     next:
         content: Embed API 用の HTML タグを設置
-        url: '#'
+        url: '/tutorial/embed-api/'
 
 breadcrumbs:
     - title: "チュートリアル"

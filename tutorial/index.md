@@ -38,3 +38,4 @@ breadcrumbs:
 
 * [はじめに](/tutorial/introduction/)
 * [API キーを取得](/tutorial/get-api/)
+* [Embed API 用の HTML タグを設置](/tutorial/embed-api/)

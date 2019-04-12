@@ -1,0 +1,61 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Embed API 用の HTML タグを設置
+description: TileCloud の地図をサイトに埋め込むための API キーの取得方法について紹介します。
+
+# Author box
+# author:
+#     title: About Author
+#     title_url: '#'
+#     external_url: true
+#     description: Author description
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    prev:
+        content: APIキーを取得
+        url: '/tutorial/get-api/'
+    next:
+        content: はじめての地図を設置
+        url: /tutorial/first-map/
+
+breadcrumbs:
+    - title: チュートリアル
+      url: /tutorial/
+    - title: Embed API 用の HTML タグを設置
+      url: /tutorial/embed-api/
+---
+
+## Embed API 用の HTML タグを設置する
+
+TileCloud の Embed API をウェブページに設置するには、以下のコードを `</body>` の直前に設置してください。
+
+```html
+<script type="text/javascript" src="https://api.tilecloud.io/v1/embed?tilecloud-api-key=YOUR-API-KEY"></script>
+```
+
+`YOUR-API-KEY` の部分は、みなさんの API キーと置き換えてください。
+
+## WordPress への設置方法
+
+例えば WordPress でこのタグを挿入するには、テーマの `functions.php` またはプラグインの中で以下のコードを記述してください。
+
+```php
+add_action( 'wp_enqueue_scripts', function() {
+  wp_enqueue_script(
+    'tilecloud-embed-api',
+    'https://api.tilecloud.io/v1/embed?tilecloud-api-key=YOUR-API-KEY',
+    array(),
+    false,
+    true
+  );
+} );
+```
