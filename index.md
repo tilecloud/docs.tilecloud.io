@@ -32,7 +32,7 @@ grid_navigation:
       excerpt: TileCloud へのサインアップ方法や、ウェブサイトへの TileCloud 地図の埋め込み方法についてご紹介します。
       cta: Read more
       url: '/tutorial/'
-    - title: Embed API の使い方
+    - title: Embed API
       excerpt: Embed API を使用すると、JavaScript を書かなくても、簡単な HTML を挿入するだけで地図を表示することが可能です。
       cta: Read more
       url: ''
