@@ -40,3 +40,4 @@ breadcrumbs:
 * [API キーを取得](/tutorial/002/)
 * [Embed API 用の HTML タグを設置](/tutorial/003/)
 * [はじめての地図を設置](/tutorial/004/)
+* [地図のカスタマイズ](/tutorial/005/)
