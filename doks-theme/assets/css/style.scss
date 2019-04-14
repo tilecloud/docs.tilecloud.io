@@ -68,6 +68,8 @@
   {
     width: 25%;
     padding: 4px;
+    word-wrap: break-word;
+    line-height: 1.2em;
   }
 }
 
@@ -77,10 +79,10 @@
   height: 50px;
   cursor: pointer;
   display: none;
-}
 
-#custom-marker img
-{
-  max-width: 100%;
-  height: auto;
+  img
+  {
+    max-width: 100%;
+    height: auto;
+  }
 }
