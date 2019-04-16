@@ -42,3 +42,4 @@ breadcrumbs:
 * [はじめての地図を設置](/tutorial/004/)
 * [地図のスタイルをカスタマイズ](/tutorial/005/)
 * [地図のコントロールをカスタマイズ](/tutorial/006/)
+* [GeoJSON で複数のマーカーを表示](/tutorial/007/)
