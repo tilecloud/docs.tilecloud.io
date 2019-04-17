@@ -36,6 +36,10 @@ grid_navigation:
       excerpt: Embed API を使用すると、JavaScript を書かなくても、簡単な HTML を挿入するだけで地図を表示することが可能です。
       cta: Read more
       url: '/embed-api/'
+    - title: GeoJSON 仕様
+      excerpt: GeoJSON のスタイルを定義するための仕様について紹介します。
+      cta: Read more
+      url: '/geojson/'
     - title: TileCloud Sandbox
       excerpt: TileCloud の地図をオンラインの IDE で今すぐ試すことができます。
       cta: Enjoy TileCloud!

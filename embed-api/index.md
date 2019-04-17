@@ -28,8 +28,8 @@ page_nav:
     #     url: '/tutorial/001/'
 
 breadcrumbs:
-    - title: "Embed API"
-      url: "/embed-api/"
+    - title: Embed API
+      url: /embed-api/
     # - title: "hello"
     #   URL: "./"
 ---

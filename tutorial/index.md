@@ -28,8 +28,8 @@ page_nav:
         url: '/tutorial/001/'
 
 breadcrumbs:
-    - title: "チュートリアル"
-      url: "/tutorial/"
+    - title: チュートリアル
+      url: /tutorial/
     # - title: "hello"
     #   URL: "./"
 ---
