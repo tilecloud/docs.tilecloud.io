@@ -16,4 +16,9 @@
       } )
   }
 
+  var map = new tilecloud.Map( document.querySelector( '#toturial-009' ) );
+  setInterval( function() { 
+    map.rotateTo( map.getBearing() + 90 ) 
+  }, 3000 );
+
 } )( jQuery );
