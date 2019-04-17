@@ -48,7 +48,19 @@ Simplestyle とは Mapbox 社が公開した GeoJSON にスタイル情報を埋
 
 [![](https://www.evernote.com/l/ABWRqUPcMf1AwKFp5kH0BSZzScwRaC0TAusB/image.png)](https://github.com/tilecloud/docs.tilecloud.io/blob/master/geojson/example.geojson)
 
-TileCloud の Embed API では、以下のように GeoJSON を埋め込むことが可能ですが、TileCloud でも同様に Simplestyle に対応しています。
+TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyle に対応しています。
+
+```html
+<div
+  class="tilecloud"
+  data-key="YOUR-API-KEY"
+  data-lat="35.67443"
+  data-lng="139.75675"
+  data-zoom="15.5"
+  data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
+  data-marker="off"
+></div>
+```
 
 <div
   class="tilecloud"
