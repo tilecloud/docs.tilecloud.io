@@ -43,3 +43,5 @@ breadcrumbs:
 * [地図のスタイルをカスタマイズ](/tutorial/005/)
 * [地図のコントロールをカスタマイズ](/tutorial/006/)
 * [GeoJSON で複数のマーカーを表示](/tutorial/007/)
+* [地図の表示言語を切り替える](/tutorial/008/)
+* [JavaScript を使用した高度なカスタマイズ](/tutorial/009/)
