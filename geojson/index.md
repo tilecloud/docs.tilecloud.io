@@ -53,7 +53,6 @@ TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyl
 ```html
 <div
   class="tilecloud"
-  data-key="YOUR-API-KEY"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
   data-marker="off"
 ></div>
@@ -61,7 +60,6 @@ TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyl
 
 <div
   class="tilecloud"
-  data-key="YOUR-API-KEY"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
   data-marker="off"
 ></div>
