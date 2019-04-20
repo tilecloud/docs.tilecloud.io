@@ -54,9 +54,6 @@ TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyl
 <div
   class="tilecloud"
   data-key="YOUR-API-KEY"
-  data-lat="35.67443"
-  data-lng="139.75675"
-  data-zoom="15.5"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
   data-marker="off"
 ></div>
@@ -65,9 +62,6 @@ TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyl
 <div
   class="tilecloud"
   data-key="YOUR-API-KEY"
-  data-lat="35.67443"
-  data-lng="139.75675"
-  data-zoom="15.5"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
   data-marker="off"
 ></div>
