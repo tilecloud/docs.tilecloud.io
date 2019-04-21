@@ -53,6 +53,8 @@
       {
         "type": "Feature",
         "properties": {
+          "title": "Hello Polygon!",
+          "description": "これは <strong>Polygon</strong> です。",
           "stroke": "#935100",
           "stroke-width": 2,
           "stroke-opacity": 1,
@@ -131,6 +133,8 @@
       {
         "type": "Feature",
         "properties": {
+          "title": "Hello LineString!",
+          "description": "これは <strong>LineString</strong> です。",
           "stroke": "#941100",
           "stroke-width": 10,
           "stroke-opacity": 1

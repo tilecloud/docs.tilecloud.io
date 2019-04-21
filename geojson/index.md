@@ -115,8 +115,8 @@ TileCloud の Embed API が対応しているタイプは以下の3種類です�
 
 | プロパティ| 内容| Point | LineString | Polygon |
 |---------|---------|-------|------------|---------|
-| title          | マーカーの下に表示されるテキスト | ○ |   |   |
-| description    | マーカークリック時に表示されるコンテンツ | ○ |   |   |
+| title          | マーカーの下に表示されるテキスト | ○ | ○ | ○ |
+| description    | マーカークリック時に表示されるコンテンツ | ○ | ○ | ○ |
 | marker-size    | マーカーのサイズを `small`、`medium`、`large` のいずれかで指定 | ○ |   |   |
 | marker-symbol  | マーカーのアイコン。 | ○ |   |   |
 | marker-color   | マーカーの色。例: `#7e7e7e` | ○ |   |   |
