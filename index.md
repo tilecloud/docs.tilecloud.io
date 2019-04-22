@@ -40,8 +40,4 @@ grid_navigation:
       excerpt: GeoJSON のスタイルを定義するための仕様について紹介します。
       cta: Read more
       url: '/geojson/'
-    - title: TileCloud Sandbox
-      excerpt: TileCloud の地図をオンラインの IDE で今すぐ試すことができます。
-      cta: Enjoy TileCloud!
-      url: 'https://playcode.io/290651?tabs=index.html&output'
 ---
