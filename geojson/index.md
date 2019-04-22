@@ -54,14 +54,12 @@ TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyl
 <div
   class="tilecloud"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
-  data-marker="off"
 ></div>
 ```
 
 <div
   class="tilecloud"
   data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
-  data-marker="off"
 ></div>
 
 ## Simplestyle のスキーマ
