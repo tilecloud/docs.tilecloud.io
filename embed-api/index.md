@@ -36,7 +36,7 @@ breadcrumbs:
 
 ## Embed API とは
 
-TileCloud の地図サービスでは、Embed API という API を提供しています。
+Geolonia の地図サービスでは、Embed API という API を提供しています。
 
 この API は、[Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) 互換の JavaScript API に加えて、簡単な HTML を記述するだけでユーザーの皆さんのウェブサイトに地図を埋め込むことも可能にしています。
 
@@ -49,26 +49,26 @@ TileCloud の地図サービスでは、Embed API という API を提供して�
 Embed API を利用するには、地図を設置したいページの `</body>` の直前に以下のコードを記述してください。
 
 ```html
-<script type="text/javascript" src="https://api.tilecloud.io/v1/embed?tilecloud-api-key=YOUR-API-KEY"></script>
+<script type="text/javascript" src="https://api.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
 ```
 
 `YOUR-API-KEY` の部分は、みなさんの API キーと置き換えてください。
 
 ## HTML の記述
 
-Embed API を利用して地図を設置するには、`tilecloud` というクラス属性を持つ `<div />` 要素を設置してください。この要素には、CSS 等で高さが指定されている必要があります。
+Embed API を利用して地図を設置するには、`geolonia` というクラス属性を持つ `<div />` 要素を設置してください。この要素には、CSS 等で高さが指定されている必要があります。
 
 ```html
-<div class="tilecloud"></div>
+<div class="geolonia"></div>
 ```
 
-<div class="tilecloud"></div>
+<div class="geolonia"></div>
 
 地図用の `<div />` 要素の子要素は、マーカーをクリックした際に表示されるポップアップのコンテンツとして使用されます。
 
 ```html
 <div
-  class="tilecloud"
+  class="geolonia"
   data-lat="35.65810422222222"
   data-lng="139.74135747222223"
   data-zoom="9"
@@ -76,7 +76,7 @@ Embed API を利用して地図を設置するには、`tilecloud` というク�
 ```
 
 <div
-  class="tilecloud"
+  class="geolonia"
   data-lat="35.65810422222222"
   data-lng="139.74135747222223"
   data-zoom="9"
@@ -112,7 +112,7 @@ Embed API を利用して地図を設置するには、`tilecloud` というク�
 
 ```html
 <div
-  class="tilecloud"
+  class="geolonia"
   data-lat="35.65810422222222"_
   data-lng="139.74135747222223"
   data-zoom="9"

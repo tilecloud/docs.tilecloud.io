@@ -58,7 +58,7 @@
 @import 'themes/yellow';
 @import 'themes/purple';
 
-.tilecloud-styles
+.geolonia-styles
 {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +92,8 @@ pre {
 }
 
 #toturial-009,
-.tilecloud {
+.tilecloud,
+.geolonia {
   width: 100%;
   height: 300px;
   margin-bottom: 1em;

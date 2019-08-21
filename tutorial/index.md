@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: チュートリアル
-description: 本チュートリアルでは、TileCloudの地図をウェブサイトに埋め込むための一般的な方法を目的別に紹介します。
+description: 本チュートリアルでは、Geoloniaの地図をウェブサイトに埋め込むための一般的な方法を目的別に紹介します。
 
 # Author box
 # author:

@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: TileCloud 公式ドキュメント
+title: Geolonia 公式ドキュメント
 description: ""
 # buttons:
 #     - icon: arrow-right
@@ -29,7 +29,7 @@ author: {}
 # Grid navigation
 grid_navigation:
     - title: チュートリアル
-      excerpt: TileCloud へのサインアップ方法や、ウェブサイトへの TileCloud 地図の埋め込み方法についてご紹介します。
+      excerpt: Geolonia へのサインアップ方法や、ウェブサイトへの Geolonia 地図の埋め込み方法についてご紹介します。
       cta: Read more
       url: '/tutorial/'
     - title: Embed API
