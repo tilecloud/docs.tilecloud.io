@@ -46,20 +46,20 @@ Simplestyle とは Mapbox 社が公開した GeoJSON にスタイル情報を埋
 
 [smplestyle-spec](https://github.com/mapbox/simplestyle-spec)
 
-[![](https://www.evernote.com/l/ABWRqUPcMf1AwKFp5kH0BSZzScwRaC0TAusB/image.png)](https://github.com/tilecloud/docs.tilecloud.io/blob/master/geojson/example.geojson)
+[![](https://www.evernote.com/l/ABWRqUPcMf1AwKFp5kH0BSZzScwRaC0TAusB/image.png)](https://github.com/geolonia/docs.geolonia.com/blob/master/geojson/example.geojson)
 
-TileCloud の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyle に対応しています。
+Geolonia の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyle に対応しています。
 
 ```html
 <div
-  class="tilecloud"
-  data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
+  class="geolonia"
+  data-geojson="https://docs.geolonia.com/geojson/example.geojson"
 ></div>
 ```
 
 <div
-  class="tilecloud"
-  data-geojson="https://docs.tilecloud.io/geojson/example.geojson"
+  class="geolonia"
+  data-geojson="https://docs.geolonia.com/geojson/example.geojson"
 ></div>
 
 ## Simplestyle のスキーマ
@@ -101,13 +101,13 @@ GeoJSON は、以下のようなルート要素を持っています。
 
 `feature` オブジェクトにはいくつかのタイプがあり、それは `geometry` プロパティの中にある `type` プロパティで指定されています。
 
-TileCloud の Embed API が対応しているタイプは以下の3種類です。
+Geolonia の Embed API が対応しているタイプは以下の3種類です。
 
 * `Point`: 特定の座標を示すためのマーカーを設置します。
 * `LineString`: 複数の座標を結ぶ線を設置します。
 * `Polygon`: 多角形の図形を設置します。
 
-TileCloud では、これらのタイプに対して、以下で紹介するスタイル情報に対応しています。
+Geolonia では、これらのタイプに対して、以下で紹介するスタイル情報に対応しています。
 
 ## タイプごとに指定可能なスタイル情報
 

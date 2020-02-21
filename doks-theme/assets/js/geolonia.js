@@ -1,8 +1,8 @@
 ( function( $ ) {
 
-  if ( $( '.tilecloud-styles' ).length ) {
-    var imgUrl = 'https://styles.tilecloud.io/:style/screenshot.png'
-    $.ajax( { url: 'https://api.tilecloud.io/v1/styles' } )
+  if ( $( '.geolonia-styles' ).length ) {
+    var imgUrl = 'https://styles.geolonia.com/:style/screenshot.png'
+    $.ajax( { url: 'https://api.geolonia.com/v1/styles' } )
       .done( function( data ) {
         for ( var key in data ) {
           var style = $( '<div class="style"></div>' )
@@ -11,14 +11,14 @@
           style.append( img )
           style.append( name )
 
-          $( '.tilecloud-styles' ).append( style )
+          $( '.geolonia-styles' ).append( style )
         }
       } )
   }
 
-  var map = new tilecloud.Map( document.querySelector( '#toturial-009' ) );
-  setInterval( function() { 
-    map.rotateTo( map.getBearing() + 90 ) 
+  var map = new geolonia.Map( document.querySelector( '#toturial-009' ) );
+  setInterval( function() {
+    map.rotateTo( map.getBearing() + 90 )
   }, 3000 );
 
 } )( jQuery );

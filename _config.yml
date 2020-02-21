@@ -4,7 +4,7 @@ doks:
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: TileCloud 公式ドキュメント
+            text: Geolonia 公式ドキュメント
             image: /img/logo.png
         nav:
             - item_name: チュートリアル
@@ -13,15 +13,15 @@ doks:
               item_url: '/embed-api/'
             - item_name: GeoJSON 仕様
               item_url: '/geojson/'
-            - item_name: TileCloud Sandbox
+            - item_name: Geolonia Sandbox
               item_url: 'https://playcode.io/290651?tabs=index.html&output'
 
     footer:
         content:
             logo:
-                text: TileCloud 公式ドキュメント
+                text: Geolonia 公式ドキュメント
                 image:
-            copyright: Copyright &copy; 2019. - TileCloud.io <br>All rights reserved.
+            copyright: Copyright &copy; 2019. - Geolonia.com <br>All rights reserved.
         social_list:
             # - network_name: facebook
             #   profile_url: '#'
@@ -30,7 +30,7 @@ doks:
             # - network_name: instagram
             #   profile_url: '#'
             - network_name: github
-              profile_url: 'https://github.com/tilecloud/docs.tilecloud.io'
+              profile_url: 'https://github.com/geolonia/docs.geolonia.com'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:

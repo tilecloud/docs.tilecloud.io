@@ -1,6 +1,6 @@
-# docs.tilecloud.io
+# docs.geolonia.com
 
-https://docs.tilecloud.io/
+https://docs.geolonia.com/
 
 ```
 $ bundle install --path vendor
