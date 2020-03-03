@@ -13,8 +13,6 @@ doks:
               item_url: '/embed-api/'
             - item_name: GeoJSON 仕様
               item_url: '/geojson/'
-            - item_name: Geolonia Sandbox
-              item_url: 'https://playcode.io/290651?tabs=index.html&output'
 
     footer:
         content:
