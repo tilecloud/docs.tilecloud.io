@@ -118,7 +118,3 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
   data-zoom="9"
 ><strong>日本経緯度原点</strong><br>東京都港区麻布台二丁目</div>
 ```
-
-これらの属性は、以下の Sandbox で実際の動作をお試しいただくことが可能です。
-
-[https://playcode.io/290651?tabs=index.html&output](https://playcode.io/290651?tabs=index.html&output)
