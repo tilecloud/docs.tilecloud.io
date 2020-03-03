@@ -16,7 +16,7 @@
       } )
   }
 
-  var map = new geolonia.Map( document.querySelector( '#toturial-009' ) );
+  var map = new geolonia.Map( document.querySelector( '#my-map-09' ) );
   setInterval( function() {
     map.rotateTo( map.getBearing() + 90 )
   }, 3000 );
