@@ -107,6 +107,8 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
 | data-cluster-color | クラスタ用のサークルの色を指定します。 | `#ff0000` |
 | data-style | 地図のスタイルを指定します。[参照](/tutorial/005/) | `osm-bright` |
 | data-lang | 地図の言語を `auto` または `ja`、`en` のいずれかで指定します。 | `auto` |
+| data-loader | 地図のローディング中のアニメーションを表示させるかどうかを `on` または `off` で指定します。 | `on` |
+| data-lazy | 地図の地図の遅延ローディングを行うかどうかを `on` または `off` で指定します。 | `on` |
 
 <strong>属性の使用例:</strong>
 
