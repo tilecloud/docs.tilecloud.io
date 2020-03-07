@@ -36,6 +36,10 @@ grid_navigation:
       excerpt: Embed API を使用すると、JavaScript を書かなくても、簡単な HTML を挿入するだけで地図を表示することが可能です。
       cta: Read more
       url: '/embed-api/'
+    - title: JavaScript API
+      excerpt: Geolonia の JavaScript API を使用すると、従来よりも少ない記述で本格的な地図アプリを開発することができます。
+      cta: Read more
+      url: '/js/'
     - title: GeoJSON 仕様
       excerpt: GeoJSON のスタイルを定義するための仕様について紹介します。
       cta: Read more
