@@ -21,7 +21,7 @@ doks:
             logo:
                 text: Geolonia 公式ドキュメント
                 image:
-            copyright: Copyright &copy; 2019. - Geolonia.com <br>All rights reserved.
+            copyright: Copyright &copy; 2020. - Geolonia.com <br>All rights reserved.
         social_list:
             # - network_name: facebook
             #   profile_url: '#'
