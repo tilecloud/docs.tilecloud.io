@@ -16,9 +16,11 @@
       } )
   }
 
-  var map = new geolonia.Map( document.querySelector( '#my-map-09' ) );
-  setInterval( function() {
-    map.rotateTo( map.getBearing() + 90 )
-  }, 3000 );
+  if ( document.querySelector( '#my-map-09' ) ) {
+    var map = new geolonia.Map( document.querySelector( '#my-map-09' ) );
+    setInterval( function() {
+      map.rotateTo( map.getBearing() + 90 )
+    }, 3000 );
+  }
 
 } )( jQuery );
