@@ -37,4 +37,7 @@ breadcrumbs:
 ## 目次
 
 * [はじめに](/js/001/)
-* [geolonia.Map](/js/002/)
+* [クラスリファレンス](/js/002/)
+  * geolonia.Map
+  * geolonia.Popup
+  * geolonia.Marker
