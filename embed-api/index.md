@@ -117,6 +117,7 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
 | data-marker-color | マーカーの色を `#FF0000` または `rgba(255, 0, 0, 0.5)` の様に指定してください。 | `#E4402F` |
 | data-open-popup | マーカーのポップアップがデフォルトで開いた状態で地図を表示させるかどうかを `on` または `off` で指定します。 | `off` |
 | data-custom-marker | カスタムマーカーとして使用するための HTML 要素のセレクタを指定してください。例: `#my-custom-marker` |  |
+| data-custom-marker-offset | カスタムマーカーの位置のオフセット値のピクセル数を数字で指定してください。例: `0, 25` | `0, 0` |
 | data-gesture-handling | マウスホイールやタッチ操作によるページのスクロールの邪魔にならないように、`alt` キーまたは、2本指による操作を強制します。 | `on` |
 | data-navigation-control | ナビゲーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `on` |
 | data-geolocate-control | ジオロケーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `off` |
