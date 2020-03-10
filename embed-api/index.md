@@ -44,6 +44,25 @@ Geolonia の地図サービスでは、Embed API という API を提供して�
 
 [はじめての方は、チュートリアルからはじめてみることをおすすめします。](/tutorial/)
 
+## Embed API の動作環境
+
+* Internet Exploerer 11 以降及びすべてのモダンブラウザの最新版。
+* Firefox などの一部のブラウザでは、WebGL に対する制限により、一つのページ内に16個を超える地図を設置することはできません。
+* API キー `YOUR-API-KEY` に限り、`iframe` 内での利用を許可しておりません。
+
+ご利用中のブラウザが対応ブラウザかどうかは以下のようなコードで確認することができます。
+
+```javascript
+if (!geolonia.supported()) {
+  alert('Your browser does not support Mapbox GL.')
+} else {
+  const map = new geolonia.Map('#map')
+}
+```
+
+* [プレビュー](/examples/supported.html)
+* [CodePen](https://codepen.io/pen?template=PoqELra)
+
 ## Embed API の設置
 
 Embed API を利用するには、地図を設置したいページの `</body>` の直前に以下のコードを記述してください。
