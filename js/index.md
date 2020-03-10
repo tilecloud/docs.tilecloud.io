@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: JavaScript API
-description: 本チュートリアルでは、Geoloniaの地図をウェブサイトに埋め込むための一般的な方法を目的別に紹介します。
+description: JavaScript API についてご説明しています。
 
 # Author box
 # author:
@@ -38,6 +38,3 @@ breadcrumbs:
 
 * [はじめに](/js/001/)
 * [クラスリファレンス](/js/class/)
-  * [Map](/js/class/map/)
-  * [Popup](/js/popup/)
-  * [Marker](/js/marker/)
