@@ -30,35 +30,20 @@ breadcrumbs:
 
 Geolonia の JavaScript API の `Marker` クラスは、Mapbox GL JS の `Marker` クラスを拡張したクラスで互換性があります。
 
-[https://docs.mapbox.com/mapbox-gl-js/api/#map](https://docs.mapbox.com/mapbox-gl-js/api/#map)
+https://docs.mapbox.com/mapbox-gl-js/api/#map
 
 ### 使い方
 
 ```javascript
-const map = new geolonia.Map(options: Object)
+const map = new geolonia.Map(options)
 ```
 
+### パラメータ
 
-### 例
+`options` には、地図を表示するための HTML 要素を指す CSS セレクタまたは HTMLElement または、以下の要素を含むオブジェクトを指定することができます。
 
-#### 地図を表示する
+#### options
 
-Geolonia の JavaScript API は、[Embed API](/embed-api/) と組み合わせて使用することができます。
-
-```html
-<div id="map"
-  data-lat="35.632546"
-  data-lng="139.881328"
-  data-zoom="16"
-  data-style="geolonia/midnight"
-  data-marker="off"
-></div>
-
-<script>
-  const map = new geolonia.Map()
-</script>
-```
-
-[CodePen](https://codepen.io/pen?template=xxGYbjL)
-
- #### カスタムマーカーを表示する。
+| 名前 | 概要 | 型 | 初期値 |
+|---|---|---|---|
+| `container` | 地図を設置する HTML 要素を指す CSS セレクタ、または `HTMLElement` オブジェクトを指定してください。 | `HTMLElement` または `string` |  |
