@@ -42,6 +42,22 @@ const map = new geolonia.Map(options)
 
 `options` には、地図を表示するための HTML 要素を指す CSS セレクタまたは HTMLElement または、以下の要素を含むオブジェクトを指定することができます。
 
+例）CSSセレクタを使用:
+
+```javascript
+const map = new geolonia.Map( '#map' ) // CSS セレクタを使用
+```
+
+例）`options` を使用
+
+```javascript
+const map = new geolonia.Map( {
+  container: '#map',
+  ...
+  ...
+} )
+```
+
 #### options
 
 | 名前 | 概要 | 型 | 初期値 |
