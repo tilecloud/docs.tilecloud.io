@@ -44,6 +44,25 @@ Geolonia の地図サービスでは、Embed API という API を提供して�
 
 [はじめての方は、チュートリアルからはじめてみることをおすすめします。](/tutorial/)
 
+## Embed API の動作環境
+
+* Internet Exploerer 11 以降及びすべてのモダンブラウザの最新版。
+* Firefox などの一部のブラウザでは、WebGL に対する制限により、一つのページ内に16個を超える地図を設置することはできません。
+* API キー `YOUR-API-KEY` に限り、`iframe` 内での利用を許可しておりません。
+
+ご利用中のブラウザが対応ブラウザかどうかは以下のようなコードで確認することができます。
+
+```javascript
+if (!geolonia.supported()) {
+  alert('Your browser does not support Mapbox GL.')
+} else {
+  const map = new geolonia.Map('#map')
+}
+```
+
+* [プレビュー](/examples/supported.html)
+* [CodePen](https://codepen.io/pen?template=PoqELra)
+
 ## Embed API の設置
 
 Embed API を利用するには、地図を設置したいページの `</body>` の直前に以下のコードを記述してください。
@@ -95,9 +114,10 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
 | data-pitch | 地図の傾斜角を `0` から `60` までの数字で指定してください。 | `0` |
 | data-hash | 地図をマウス等で動かした際に、地図の座標やズームがページ URL のハッシュ値と連動させるかどうかを `on` または `off` で指定します。 | `off` |
 | data-marker | `data-lat` および `data-lng` で指定した座標にマーカーを設置させるかどうかを `on` または `off` で指定します。 | `on` |
-| data-marker-color | マーカーの色を `#FF0000` の用に指定してください。 | `` |
+| data-marker-color | マーカーの色を `#FF0000` または `rgba(255, 0, 0, 0.5)` の様に指定してください。 | `#E4402F` |
 | data-open-popup | マーカーのポップアップがデフォルトで開いた状態で地図を表示させるかどうかを `on` または `off` で指定します。 | `off` |
 | data-custom-marker | カスタムマーカーとして使用するための HTML 要素のセレクタを指定してください。例: `#my-custom-marker` |  |
+| data-custom-marker-offset | カスタムマーカーの位置のオフセット値のピクセル数を数字で指定してください。例: `0, 25` | `0, 0` |
 | data-gesture-handling | マウスホイールやタッチ操作によるページのスクロールの邪魔にならないように、`alt` キーまたは、2本指による操作を強制します。 | `on` |
 | data-navigation-control | ナビゲーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `on` |
 | data-geolocate-control | ジオロケーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `off` |
