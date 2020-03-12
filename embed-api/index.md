@@ -50,18 +50,9 @@ Geolonia の地図サービスでは、Embed API という API を提供して�
 * Firefox などの一部のブラウザでは、WebGL に対する制限により、一つのページ内に16個を超える地図を設置することはできません。
 * API キー `YOUR-API-KEY` に限り、`iframe` 内での利用を許可しておりません。
 
-ご利用中のブラウザが対応ブラウザかどうかは以下のようなコードで確認することができます。
+ご利用中のブラウザが対応ブラウザかどうかは以下のページで確認することができます。 もし地図が表示されれば対応ブラウザです。
 
-```javascript
-if (!geolonia.supported()) {
-  alert('Your browser does not support Mapbox GL.')
-} else {
-  const map = new geolonia.Map('#map')
-}
-```
-
-* [プレビュー](/examples/supported.html)
-* [CodePen](https://codepen.io/pen?template=PoqELra)
+[対応ブラウザかどうかを確認する](/examples/supported.html)
 
 ## Embed API の設置
 
@@ -100,6 +91,8 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
   data-lng="139.74135747222223"
   data-zoom="9"
 ><strong>日本経緯度原点</strong><br>東京都港区麻布台二丁目</div>
+
+<a class="codepen" href="https://codepen.io/pen?template=dyomyrX" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
 
 ## 属性の一覧
 
@@ -141,3 +134,5 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
   data-zoom="9"
 ><strong>日本経緯度原点</strong><br>東京都港区麻布台二丁目</div>
 ```
+
+<a class="codepen" href="https://codepen.io/pen?template=dyomyrX" target="codepen"><i class="icon icon--codepen"></i> CodePen</a> を使用するとサインアップ無しで Geolonia の地図をお試しいただけます。
