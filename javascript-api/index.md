@@ -84,18 +84,29 @@ const map = new geolonia.Map( '#map' )
 
 ## 例
 
-以下の例では、`moveend` イベントを利用して、地図を動かした後で、地図の中心地点の緯度経度をコンソールに出力しています。
+### 地図を回転させる
 
-```javascript
-const map = new geolonia.Map({
-  container: '#map',
-  maxZoom: 16,
-  minZoom: 10,
-})
+以下の例では、地図のロードが完了したあとで、3秒毎に地図を反時計回りに回転させます。
 
-map.on('moveend', () => {
-  console.log(map.getCenter().toArray())
-})
-```
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="poJLoBq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Rotate the Map">
+  <span>See the Pen <a href="https://codepen.io/geolonia/pen/poJLoBq">
+  Rotate the Map</a> by Geolonia (<a href="https://codepen.io/geolonia">@geolonia</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<a class="codepen" href="https://codepen.io/geolonia/pen/ZEGxQbd" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
+<a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
+
+
+### 複数のマーカーを表示
+
+この例では、GeoJSON を読み込んで、条件ごとに色分けしたマーカーを表示しています。
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="zYGRgdq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Multiple Markers with GeoJSON">
+  <span>See the Pen <a href="https://codepen.io/geolonia/pen/zYGRgdq">
+  Multiple Markers with GeoJSON</a> by Geolonia (<a href="https://codepen.io/geolonia">@geolonia</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
