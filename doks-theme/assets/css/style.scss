@@ -109,3 +109,28 @@ th
 {
   color: #850d00;
 }
+
+.content ul
+{
+  list-style-type: disc;
+
+  li
+  {
+    padding-left: 0;
+  }
+}
+
+.content ul li::before
+{
+  content: '';
+}
+
+.callout ul
+{
+  margin: 0;
+}
+
+.nav .level-3
+{
+  display: none !important;
+}
