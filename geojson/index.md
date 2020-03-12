@@ -53,13 +53,13 @@ Geolonia の Embed API の GeoJSON 埋め込み機能でも同様に Simplestyle
 ```html
 <div
   class="geolonia"
-  data-geojson="https://docs.geolonia.com/geojson/example.geojson"
+  data-geojson="/geojson/example.geojson"
 ></div>
 ```
 
 <div
   class="geolonia"
-  data-geojson="https://docs.geolonia.com/geojson/example.geojson"
+  data-geojson="/geojson/example.geojson"
 ></div>
 
 ## Simplestyle のスキーマ
