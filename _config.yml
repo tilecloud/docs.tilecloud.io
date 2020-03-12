@@ -12,7 +12,7 @@ doks:
             - item_name: Embed API
               item_url: '/embed-api/'
             - item_name: JavaScript API
-              item_url: '/js/'
+              item_url: '/javascript-api/'
             - item_name: GeoJSON 仕様
               item_url: '/geojson/'
 
