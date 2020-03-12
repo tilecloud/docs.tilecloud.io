@@ -110,7 +110,7 @@ th
   color: #850d00;
 }
 
-ul
+.content ul
 {
   list-style-type: disc;
 
@@ -120,7 +120,7 @@ ul
   }
 }
 
-ul li::before
+.content ul li::before
 {
   content: '';
 }
@@ -128,4 +128,9 @@ ul li::before
 .callout ul
 {
   margin: 0;
+}
+
+.nav .level-3
+{
+  display: none !important;
 }
