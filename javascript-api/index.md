@@ -82,7 +82,23 @@ const map = new geolonia.Map( '#map' )
 
 [https://docs.mapbox.com/mapbox-gl-js/api/](https://docs.mapbox.com/mapbox-gl-js/api/)
 
-## 例
+以下は、`moveend` イベントで、地図の中心点の座標をコンソールに出力するサンプルです。
+
+```javascript
+const map = new geolonia.Map({
+  container: '#map',
+  maxZoom: 16,
+  minZoom: 10,
+})
+
+map.on('moveend', () => {
+  console.log(map.getCenter().toArray())
+})
+```
+
+<a class="codepen" href="https://codepen.io/geolonia/pen/ZEGxQbd" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
+
+## サンプルアプリケーション
 
 ### 地図を回転させる
 
@@ -96,7 +112,6 @@ const map = new geolonia.Map( '#map' )
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 <a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
-
 
 ### 複数のマーカーを表示
 
