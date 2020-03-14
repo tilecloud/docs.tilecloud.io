@@ -138,7 +138,7 @@ API キーに対しては、あらかじめ `https://editor.geolonia.com` を許
 
 次に地図を表示するための HTML に、アップロードしたスタイルにアクセスするための URL を記述してください。
 
-```
+```html
 <div class="geolonia" data-style="https://example.com/my-style.json">
 ```
 
