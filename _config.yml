@@ -11,7 +11,7 @@ doks:
               item_url: '/tutorial/'
             - item_name: Embed API
               item_url: '/embed-api/'
-              - item_name: JavaScript API
+            - item_name: JavaScript API
               item_url: '/javascript-api/'
             - item_name: カスタムスタイル
               item_url: '/custom-style/'
