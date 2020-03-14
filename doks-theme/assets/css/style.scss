@@ -105,9 +105,24 @@ th
   color: #666666;
 }
 
+.callout--info
+{
+  color: #00244f;
+}
+
+.callout--warning
+{
+  color: #836500;
+}
+
 .callout--danger
 {
   color: #850d00;
+}
+
+.callout--success
+{
+  color: #00470d;
 }
 
 .content ul
@@ -127,7 +142,7 @@ th
 
 .callout ul
 {
-  margin: 0;
+  margin: 0 1em;
 }
 
 .nav .level-3
