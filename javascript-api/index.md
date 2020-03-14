@@ -102,15 +102,6 @@ map.on('moveend', () => {
 
 ### 地図を回転させる
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="poJLoBq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Rotate the Map">
-  <span>See the Pen <a href="https://codepen.io/geolonia/pen/poJLoBq">
-  Rotate the Map</a> by Geolonia (<a href="https://codepen.io/geolonia">@geolonia</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
-<a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
-
 ### 地図のスタイルを切り替えるためのカスタムコントロールを追加
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="rNVdobe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Custom control to switch the style">
@@ -128,6 +119,13 @@ map.on('moveend', () => {
   Multiple Markers with GeoJSON</a> by Geolonia (<a href="https://codepen.io/geolonia">@geolonia</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
+
+## その他のサンプル
+
+* <a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> カラーピッカーで地図の背景と海の色を変更する。</a>
+* <a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> 地図を回転させる。</a>
+* <a class="codepen" href="https://codepen.io/geolonia/pen/vYORqwX" target="codepen"><i class="icon icon--codepen"></i> 地物上にマウスオーバーで、名前や緯度経度などをポップアップで表示する。</a>
+
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
