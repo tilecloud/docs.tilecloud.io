@@ -85,11 +85,7 @@ const map = new geolonia.Map( '#map' )
 以下は、`moveend` イベントで、地図の中心点の座標をコンソールに出力するサンプルです。
 
 ```javascript
-const map = new geolonia.Map({
-  container: '#map',
-  maxZoom: 16,
-  minZoom: 10,
-})
+const map = new geolonia.Map('#map')
 
 map.on('moveend', () => {
   console.log(map.getCenter().toArray())
