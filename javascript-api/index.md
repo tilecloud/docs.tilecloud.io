@@ -118,10 +118,11 @@ map.on('moveend', () => {
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+<a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
 
 ### その他のサンプル
 
-* <a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> カラーピッカーで地図の背景と海の色を変更する。</a>
+* <a class="codepen" href="https://codepen.io/geolonia/pen/jOPzjQz" target="codepen"><i class="icon icon--codepen"></i> カラーピッカーで地図の背景と海の色を変更する。</a>
 * <a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> 地図を回転させる。</a>
 * <a class="codepen" href="https://codepen.io/geolonia/pen/vYORqwX" target="codepen"><i class="icon icon--codepen"></i> 地物上にマウスオーバーで、名前や緯度経度などをポップアップで表示する。</a>
 
