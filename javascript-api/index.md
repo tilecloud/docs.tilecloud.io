@@ -100,8 +100,6 @@ map.on('moveend', () => {
 
 ## サンプルアプリケーション
 
-### 地図を回転させる
-
 ### 地図のスタイルを切り替えるためのカスタムコントロールを追加
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="rNVdobe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Custom control to switch the style">
@@ -121,7 +119,7 @@ map.on('moveend', () => {
 </p>
 
 
-## その他のサンプル
+### その他のサンプル
 
 * <a class="codepen" href="https://codepen.io/geolonia/pen/zYGRgdq" target="codepen"><i class="icon icon--codepen"></i> カラーピッカーで地図の背景と海の色を変更する。</a>
 * <a class="codepen" href="https://codepen.io/geolonia/pen/poJLoBq" target="codepen"><i class="icon icon--codepen"></i> 地図を回転させる。</a>
