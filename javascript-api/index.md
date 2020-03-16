@@ -96,6 +96,16 @@ map.on('moveend', () => {
 
 ## サンプルアプリケーション
 
+### JavaScript で地図のバックグラウンドにテクスチャを追加
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="LYVmLrK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Background with data URI pattern">
+  <span>See the Pen <a href="https://codepen.io/geolonia/pen/LYVmLrK">
+  Background with data URI pattern</a> by Geolonia (<a href="https://codepen.io/geolonia">@geolonia</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<a class="codepen" href="https://codepen.io/geolonia/pen/LYVmLrK" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
+
 ### 地図のスタイルを切り替えるためのカスタムコントロールを追加
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="rNVdobe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Custom control to switch the style">
