@@ -28,7 +28,7 @@ breadcrumbs:
 
 Geolonia では、デフォルトのスタイル `geolonia/basic` 以外にもいくつかのスタイルを用意しています。
 
-Geolonia の地図は WebGL でレンダリングされており、以下のサンプルでは、左上のプルダウンであらかじめ指定されたいくつかのスタイルを切り替えられるようになっています。
+以下のサンプルでは、左上のプルダウンでそれらのスタイルを切り替えられるようになっています。
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="geolonia" data-slug-hash="rNVdobe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Custom control to switch the style">
   <span>See the Pen <a href="https://codepen.io/geolonia/pen/rNVdobe">
@@ -39,27 +39,24 @@ Geolonia の地図は WebGL でレンダリングされており、以下のサ�
 
 <a class="codepen" href="https://codepen.io/geolonia/pen/rNVdobe" target="codepen"><i class="icon icon--codepen"></i> CodePen でサンプルコードを編集</a>
 
-Geolonia では、私たち自身が開発したすべてのスタイルを GitHub 上でオープンソースで開発しています。
-
+私たちは、すべてのスタイルを GitHub で公開しており、これらのスタイルのリポジトリの README に **DEMO on editor** というリンクがあり、そこでみなさんご自身の好みのスタイルを作ることが可能になっています。
 
 * [geolonia/basic](https://github.com/geolonia/basic)
 * [geolonia/midnight](https://github.com/geolonia/midnight)
 * [geolonia/red-planet](https://github.com/geolonia/red-planet)
 * [geolonia/notebook](https://github.com/geolonia/notebook)
 
-これらのスタイルのリポジトリの README をご覧いただくと、**DEMO on editor** というリンクがあることがおわかりいただけると思います。
-
 ![](/img/maputnik.png)
 
-これは、[Maputnik](https://maputnik.github.io/) というオープンソースのソフトウエアで、Mapbox GL JS ベースの地図のスタイルを編集することができます。
+これは、[Maputnik](https://maputnik.github.io/) というオープンソースのソフトウエアで、Mapbox GL JS ベースの地図のスタイルを GUI で簡単に編集することができます。
 
 ## カスタムスタイルをつくるための手順
 
 カスタムスタイルをつくるための最も簡単な手順は、[geolonia/midnight](https://github.com/geolonia/midnight) をベースに Maputnik をカスタマイズしていくことです。
 
-[geolonia/midnight](https://github.com/geolonia/midnight) は、ユーザーのみなさんが簡単に地図のデザインをカスタマイズできるように、レイヤーの数を少なめにしてあります。
+このスタイルは、ユーザーのみなさんが簡単に地図のデザインをカスタマイズできるようにレイヤーの数を少なめにしてあり、色の数もある程度絞っています。
 
-さっそく、geolonia/midnight を編集するための画面を Maputnik で開いてみましょう。
+ではさっそく、geolonia/midnight を編集するための画面を Maputnik で開いてみましょう。
 
 <a href="https://editor.geolonia.com/?style=https://raw.githubusercontent.com/geolonia/midnight/master/style.json"><i class="icon icon--github"></i> geolonia/midnight を編集する</a>
 
@@ -69,7 +66,7 @@ Geolonia の地図に限らず、Mapbox GL JS ベースの地図は、とても�
 
 Mapbox GL JS のスタイルでは、fill や line、symbol ごとに背景色や輪郭、透視度などを設定することができます。
 
-これらをひとつずつ把握して、ここに編集していくのはとても大変なので、上述のように Maputnik で編集していきましょう。
+これらをひとつずつ把握して個々に編集していくのはとても大変なので、上述のように Maputnik で編集していきましょう。
 
 ## 背景色を変更する
 
@@ -128,6 +125,8 @@ API キーに対しては、あらかじめ `https://editor.geolonia.com` を許
 
 ![](/img/custom-style-dashboard.png)
 
+* とりあえず試したい方は、GitHub ページを利用することをおすすめします。その場合、API キーは `YOUR-API-KEY` のままでご利用いただけます。
+
 ### 2. スタイルをサーバーにアップロードする
 
 スタイルを皆さんのウェブサイトで実際に使用するには、ウェブサーバーにアップロードする必要があります。
@@ -144,17 +143,7 @@ API キーに対しては、あらかじめ `https://editor.geolonia.com` を許
 
 上の例では、`https://example.com/my-style.json` がカスタムスタイルの URL です。
 
-## 公式スタイルディレクトリについて
-
-Geolonia では、コミュニティのみなさんが作ったスタイルをホスティングするための、公式スタイルディレクトリを準備中です。
-
-公式スタイルディレクトリにスタイルをアップロードすれば以下のようなメリットがあります。
-
-* 技術的なレビュー
-* 多言語対応
-* 地図の表示速度の高速化
-
-現在、準備中ですので、しばらくお待ちください。
+手早く試したい場合は、GitHub にアップロードするのがおすすめです。 Geolonia の地図は、GitHub ページ上では無料で使えるようになっていますので、上述した API キーを変更する必要もありません。
 
 ## さらに高度なカスタマイズ
 
@@ -163,6 +152,7 @@ Geolonia では、コミュニティのみなさんが作ったスタイルを�
 * ズームレベルや各地物が持つプロパティなどの条件に応じて表示非表示を切り替えたりデザインを切り替える。
 * 道路の幅をズームレベルに応じて切り替える。
 * ズームレベルを特定の範囲内に固定する。
+* 各地物がもつメタデータに含まれる数字を元にヒートマップを表示する。
 
 詳しくは、Mapbox GL JS のドキュメントを御覧ください。
 
