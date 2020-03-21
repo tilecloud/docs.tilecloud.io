@@ -150,3 +150,33 @@ th
 {
   display: none !important;
 }
+
+.launch-get-geolonia
+{
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container-launch-get-geolonia
+{
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  p
+  {
+    margin: 0;
+  }
+}

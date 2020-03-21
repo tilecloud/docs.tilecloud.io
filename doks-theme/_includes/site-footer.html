@@ -1,3 +1,11 @@
+<section class="container-launch-get-geolonia">
+  <div class="container">
+    <p><button class="launch-get-geolonia">クリックして地図を設置するための HTML を取得</button></p>
+    <p><a href="https://app.geolonia.com/#/signup">API キーの取得にはサインアップが必要です。</a></p>
+  </div>
+</section>
+
+
 {% if site.doks.footer.content.logo.image or site.doks.footer.content.logo.text or site.doks.footer.content.copyright or site.doks.footer.social_list %}
 	<footer class="site-footer">
 		<div class="container">
@@ -40,6 +48,7 @@
 <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/scripts.min.js"></script>
 
 <script type="text/javascript" src="https://api.geolonia.com/dev/embed?geolonia-api-key=YOUR-API-KEY"></script>
+<script type="text/javascript" src="https://geolonia.github.io/get-geolonia/app.js"></script>
 <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/geolonia.js"></script>
 
 {% include google-analytics.html %}
