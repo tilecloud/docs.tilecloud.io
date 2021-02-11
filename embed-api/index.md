@@ -59,7 +59,7 @@ Geolonia の地図サービスでは、Embed API という API を提供して�
 Embed API を利用するには、地図を設置したいページの `</body>` の直前に以下のコードを記述してください。
 
 ```html
-<script type="text/javascript" src="https://cdn.geolonia.com/embed?geolonia-api-key=YOUR-API-KEY"></script>
+<script type="text/javascript" src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
 ```
 
 `YOUR-API-KEY` の部分は、みなさんの API キーと置き換えてください。
