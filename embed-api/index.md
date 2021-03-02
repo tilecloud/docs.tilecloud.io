@@ -131,7 +131,7 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
 ```html
 <div
   class="geolonia"
-  data-lat="35.65810422222222"_
+  data-lat="35.65810422222222"
   data-lng="139.74135747222223"
   data-zoom="9"
 ><strong>日本経緯度原点</strong><br>東京都港区麻布台二丁目</div>
