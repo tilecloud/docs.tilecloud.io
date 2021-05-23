@@ -114,10 +114,11 @@ Embed API を利用して地図を設置するには、`geolonia` というク�
 | data-custom-marker | カスタムマーカーとして使用するための HTML 要素のセレクタを指定してください。例: `#my-custom-marker` |  |
 | data-custom-marker-offset | カスタムマーカーの位置のオフセット値のピクセル数を数字で指定してください。例: `0, 25` | `0, 0` |
 | data-gesture-handling | マウスホイールやタッチ操作によるページのスクロールの邪魔にならないように、`alt` キーまたは、2本指による操作を強制します。 | `on` |
-| data-navigation-control | ナビゲーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `on` |
-| data-geolocate-control | ジオロケーションコントロールを表示させるかどうかを `on` または `off` で指定します。 | `off` |
-| data-fullscreen-control | フルスクリーンコントロールを表示させるかどうかを `on` または `off` で指定します。 | `off` |
-| data-scale-control | 地図のスケールを表示させるかどうかを `on` または `off` で指定します。 | `off` |
+| data-geolonia-control | Geolonia のロゴの位置を `top-right`、`bottom-right`、`bottom-left`、`top-left` で指定します。 | `bottom-left` |
+| data-navigation-control | ナビゲーションコントロールを表示させるかどうかを `on` または `off` で指定します。<br />`top-right`、`bottom-right`、`bottom-left`、`top-left` のいずれかを指定すると表示位置を変更できます。 | `on` |
+| data-geolocate-control | ジオロケーションコントロールを表示させるかどうかを `on` または `off` で指定します。<br />`top-right`、`bottom-right`、`bottom-left`、`top-left` のいずれかを指定すると表示位置を変更できます。 | `off` |
+| data-fullscreen-control | フルスクリーンコントロールを表示させるかどうかを `on` または `off` で指定します。<br />`top-right`、`bottom-right`、`bottom-left`、`top-left` のいずれかを指定すると表示位置を変更できます。 | `off` |
+| data-scale-control | 地図のスケールを表示させるかどうかを `on` または `off` で指定します。<br />`top-right`、`bottom-right`、`bottom-left`、`top-left` のいずれかを指定すると表示位置を変更できます。 | `off` |
 | data-geojson | GeoJSON が記述されている要素のセレクタ、もしくは URL を指定します。[参照](/tutorial/007/) |  |
 | data-cluster | GeoJSON のクラスタ機能を有効化させるかどうかを `on` または `off` で指定します。[参照](/tutorial/007/) | `on` |
 | data-cluster-color | クラスタ用のサークルの色を指定します。 | `#ff0000` |
