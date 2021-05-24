@@ -38,3 +38,20 @@
 		transition: transform .2s;
 	}
 }
+
+/* Edit this page with GitHub */
+.edit-this-page__link {
+	@include link-reset;
+	display: inline-block;
+	font-weight: 500;
+	font-family: $font-family-secondary;
+	text-transform: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		.icon {
+			@include translate(-.3125rem, 0);
+		}
+	}
+}
